@@ -32,8 +32,8 @@ A scalable, user-friendly tool for validating and reconciling data between SQL S
 
 1. **Clone the repository:**
    ```sh
-   git clone <your-repo-url>
-   cd RCWorkflow/tools/RCWDataReconciliatorTools
+   git clone https://github.com/codewithashurai/sqlserver2posresql-data-reconciliator.git
+   cd sqlserver2posresql-data-reconciliator
    ```
 2. **Install dependencies:**
    ```sh
@@ -75,7 +75,7 @@ A scalable, user-friendly tool for validating and reconciling data between SQL S
 - **CSV Reports:**
   - Mismatched rows exported to CSV in the configured output directory.
 - **Database Table:**
-  - Optionally, mismatches are stored in a PostgreSQL table (`public.schema_mismatches`).
+  - Optionally, mismatches are stored in a PostgreSQL table (`public.DataReconciliator_schemas ,public.DataReconciliator_details`).
 - **Logs:**
   - All actions, warnings, and errors are logged and viewable in the UI.
 
@@ -111,11 +111,7 @@ Contributions are welcome! Please open issues or submit pull requests for bug fi
 
 ## License
 
-© 2025 RCPA Team. All rights reserved.
+© 2025 FullStackBuddy. All rights reserved.
 
 ---
 
-## Acknowledgments
-
-- Inspired by RCWSchemaValidationTools and the broader RCPA data engineering community.
-- Special thanks to all contributors and testers.

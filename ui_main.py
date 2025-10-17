@@ -15,7 +15,7 @@ import sqlalchemy
 class DataReconciliatorApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('RCW Data Reconciliator')
+        self.title('Data Reconciliator')
         self.geometry('1200x800')
         self.state('zoomed')
         self.configure(bg='#293891')
@@ -297,7 +297,7 @@ class DataReconciliatorApp(tk.Tk):
         if self.sidebar_expanded.get():
             copyright_lbl = tk.Label(
                 self.sidebar_frame,
-                text='© 2025 RCPA Team.\nAll rights reserved.',
+                text='© 2025 FullStackBuddy Team.\nAll rights reserved.',
                 font=('Segoe UI', 9, 'italic'),
                 bg=self.app_colors['sidebar_bg'],
                 fg='#c0c0c0',
@@ -1224,7 +1224,7 @@ class DataReconciliatorApp(tk.Tk):
 
     def _show_help(self):
         help_text = (
-            "RCW Data Reconciliator Help:\n\n"
+            "Data Reconciliator Help:\n\n"
             "Scalable SQL Server ↔ PostgreSQL Data Validation Tool\n\n"
             "Features:\n"
             "- Configure SQL Server and PostgreSQL connections.\n"
