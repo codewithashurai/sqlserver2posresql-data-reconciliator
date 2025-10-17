@@ -1,6 +1,11 @@
-# RCW Data Reconciliator
+✨ Created by Ashutosh Rai ✨
+sqlserver2postgres-schema-validator ensures smooth and accurate data migration from SQL Server to PostgreSQL
+
+# Data Reconciliator - v25.14.1
 
 A scalable, user-friendly tool for validating and reconciling data between SQL Server and PostgreSQL databases. Designed for data migration, ETL, and audit scenarios, it provides robust row-by-row comparison, composite/primary key normalization, datatype compatibility, and detailed reporting—all with a modern Tkinter GUI.
+<img width="1920" height="1080" alt="drcapp" src="https://github.com/user-attachments/assets/f9cc24f6-8ba6-4a92-83c9-fd86be957331" />
+
 
 ---
 
@@ -111,7 +116,7 @@ Contributions are welcome! Please open issues or submit pull requests for bug fi
 
 ## License
 
-© 2025 FullStackBuddy. All rights reserved.
+This project is licensed under the MIT License.
 
 ---
 
