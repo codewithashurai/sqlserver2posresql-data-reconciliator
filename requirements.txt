@@ -1,0 +1,10 @@
+tkinter
+threading
+queue
+sqlalchemy
+pandas
+psycopg2
+pyodbc
+csv
+hashlib
+logging
