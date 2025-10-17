@@ -1,5 +1,6 @@
 ✨ Created by Ashutosh Rai ✨
-sqlserver2postgres-schema-validator ensures smooth and accurate data migration from SQL Server to PostgreSQL
+
+sqlserver2posresql-data-reconciliator ensures smooth and accurate data migration from SQL Server to PostgreSQL
 
 # Data Reconciliator - v25.14.1
 
